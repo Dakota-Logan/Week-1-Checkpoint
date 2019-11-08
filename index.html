@@ -36,21 +36,21 @@
 		
 		<main>
 		
-			<div class="row" id="top-content">
-				<div class="col col-lg-6 d-flex flex-column text-left">
+			<div class="row" id="top-content">	
+				<div class="col-12 order-1 m-auto p-auto col-lg-4 order-lg-0 offset-lg-2 d-flex flex-column text-left" id="content-top">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore corporis, libero in omnis ab consequuntur quia, aut quasi laborum placeat corrupti aliquam eius temporibus reiciendis mollitia excepturi? Quaerat, velit!</p>
 					<p class="mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-					<button class="btn rounded-pill bg-first-grad">
-						<a href="#"></a>
+					<button class="btn bg-btn-1">
+						<a class="text-white" href="#">Fabulous</a>
 					</button>
 				</div>
-				<div class="col col-lg-6">
+				<div class="col-12 m-auto p-auto col-lg-6 offset-lg-1" id="video-top">
 					<!-- order: 1; -->
-					<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/132663183?color=ff9933&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+					<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/132663183?color=ff9933&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 				</div>
 			</div>
-			<div class="row" id="cards">
-				<div class="col col-lg-4">
+			<div class="row" id="cards content">
+				<div class="col-12 col-lg-4 mx-auto">
 					<div class="card border-0 d-flex justify-content-center">
 						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
 						<div class="card-body d-flex flex-column align-items-center text-center">
@@ -60,11 +60,33 @@
 						</div>
 					</div>
 				</div>
-				<hr class="col-12">
+				<div class="col-12 col-lg-4 mx-auto">
+					<div class="card border-0 d-flex justify-content-center">
+						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
+						<div class="card-body d-flex flex-column align-items-center text-center">
+							<h5 class="card-title">Lorem, ipsum dolor.</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
+							<a href="" class="btn btn-primary w-50"></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 mx-auto">
+					<div class="card border-0 d-flex justify-content-center">
+						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
+						<div class="card-body d-flex flex-column align-items-center text-center">
+							<h5 class="card-title">Lorem, ipsum dolor.</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
+							<a href="" class="btn btn-primary w-50"></a>
+						</div>
+					</div>
+				</div>
+				<hr class="col">
 			</div>
 			<div class="row d-flex justidy-content-between" id="bottom-content">
-				<div class="col-4 bg-primary"></div>
-				<div class="col-4 bg-primary"></div>
+				<div class="col col-lg-4 offset-lg-1" id="bottom-img"><img class="img-fluid" src="//placehold.it/700x500" alt=""></div>
+				<div class="col col-lg-4 offset-lg-2" id="bottom-text-block">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestias mollitia. Omnis praesentium officia repudiandae voluptatibus vitae, et numquam sint aut minus facilis eveniet tempora aspernatur, provident fuga quo totam quisquam asperiores iure, libero veniam. Adipisci, voluptatibus. Dolor non numquam voluptates in excepturi laudantium, fugit dolorum, alias perferendis officia dolores obcaecati? Voluptas, officia aperiam, recusandae rem facilis adipisci laboriosam sequi iste ab doloremque fugiat repellendus. Laboriosam magnam excepturi veritatis neque libero obcaecati expedita quae culpa facilis. Voluptas numquam nostrum odit.</p>
+				</div>
 			</div>			
 			<div class="row d-flex flex-column" id="bottom-splash">
 				<img src="" alt="">
@@ -75,9 +97,18 @@
 
 		<footer>
 			<div class="row">
-				<div class="col d-flex justify-content-between">
-					<div></div>
-					<div></div>
+				<div class="col-12 p-0 d-flex justify-content-between align-items-center">
+					<div class="border-bottom border-white" id="footer-element-1">
+						<a href="">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a href="">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+					<div class="border-bottom border-white" id="footer-element-2">
+						<h5 class="text-white">Hi</h5>
+					</div>
 				</div>
 			</div>
 		</footer>
@@ -87,7 +118,11 @@
 </div>
 		
 </body>
+
+<script src="https://kit.fontawesome.com/24e69c8a1a.js" crossorigin="anonymous"></script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
