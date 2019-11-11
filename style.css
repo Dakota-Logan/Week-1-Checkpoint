@@ -5,35 +5,81 @@
 /* Color Definitions */
 
 /* 1. Gradient */
-/* 2. Wite Block */
+	background-image: linear-gradient(to bottom left, #B0F 50%, #FFF 50%);
+/* 2. White Block */
+	background-color: white;
 /* 3. Yellow Block */
+
 /* 4. White Block */
 
 /* Background Positioning */
 }
 
+/* Header */
+
+.navbar{
+	/* background: rgba(0, 0, 0, 0); */
+}
+
+.navbar .nav-link {
+	
+	width: 10vw;
+	height: 1.5rem;
+	background-color: #B0F;
+	margin: 0 2rem;
+	border-radius: unset;
+	border: none;
+	box-shadow: 3px 3px 2px #777;
+}
+
 /* Top Splash */
+
+
+
 #top-content {
 	min-height: 70vh;
 }
 #top-content a {
 	text-shadow: 2px 2px 1px #333;
 }
-#nav-link {}
-.bg-btn-1{
+#nav-link {
+
+}
+.bg-btn-1 {
 	background: linear-gradient(90deg, #B0F, #F0F);
 	border-radius: 7px;
 }
 
 /* Cards */
-
+#cards-content{
+	background-color: yellow;
+}
+#cards-content>div {
+	height: 60vh;
+}
+/* .card-group .card{
+	position: relative;
+}
+.card-group .card .card-body {
+	background-color: #B0F;
+	min-height: 50%;
+	bottom: -40%;
+	position: absolute;
+}
+.card-group .card .btn {
+	min-height: ;
+	background-color: #0FB;
+} */
 
 /* Bottom Content */
-
-#bottom-text-block{
-	line-height: 3em;
+#bottom-text-block {
+	line-height: 2em;
 }
-
+@media (min-width: 992px){
+	#bottom-text-block{
+		line-height: 3em;
+	}
+}
 /* Bottom Splash */
 #bottom-splash {
 	background: linear-gradient(
@@ -41,7 +87,11 @@
 		#F0F,
 		#B0F
 	);
-	height: 30vh;
+	height: 25vh;
+}
+#bottom-splash .img-fluid{
+	max-width: 140px;
+	height: auto;
 }
 
 /* footer */
@@ -59,12 +109,4 @@ footer a:hover {
 }
 #footer-element-1, #footer-element-2{
 	margin: 0 5vw 0 5vw;
-}
-
-/* background: linear-gradient(90deg, #8C56B2, #c87cff); */
-.bg-first {
-	background-color: #c87cff;
-}
-.bg-second {
-	background-color: #7CFFC8;
 }

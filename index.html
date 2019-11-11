@@ -13,22 +13,31 @@
 <body>
 
 <div class="wrapper"> 
-	<!-- The div.wrapper will be used for background colors and images? Who knows. -->
+
 	<div class="container-fluid">
-		<header>
+		<div class="bg-diagonal-line">
+		<header class="p-5">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<img src="//placehold.it/140x100" class="nav-img nav-brand"></img>
-				
+				<img src="//placehold.it/140x100" class="img-fluid nav-brand"></img>
+
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				
-				<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+					
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="" class="nav-link btn btn-secondary" id="nav-link">link</a></li>
-						<li class="nav-item"><a href="" class="nav-link btn btn-secondary" id="nav-link">link</a></li>
-						<li class="nav-item"><a href="" class="nav-link btn btn-secondary" id="nav-link">link</a></li>
-						<li class="nav-item"><a href="" class="nav-link btn btn-secondary" id="nav-link">link</a></li>
+						<li class="nav-item">
+							<a href="" class="nav-link btn btn-secondary text-white d-flex align-items-center justify-content-center" id="nav-link">link</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link btn btn-secondary text-white d-flex align-items-center justify-content-center" id="nav-link">link</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link btn btn-secondary text-white d-flex align-items-center justify-content-center" id="nav-link">link</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link btn btn-secondary text-white d-flex align-items-center justify-content-center" id="nav-link">link</a>
+						</li>
 					</ul>
 				</div>
 			</nav>				
@@ -36,7 +45,7 @@
 		
 		<main>
 		
-			<div class="row" id="top-content">	
+			<div class="row mb-5" id="top-content">	
 				<div class="col-12 order-1 m-auto p-auto col-lg-4 order-lg-0 offset-lg-2 d-flex flex-column text-left" id="content-top">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore corporis, libero in omnis ab consequuntur quia, aut quasi laborum placeat corrupti aliquam eius temporibus reiciendis mollitia excepturi? Quaerat, velit!</p>
 					<p class="mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -44,55 +53,64 @@
 						<a class="text-white" href="#">Fabulous</a>
 					</button>
 				</div>
-				<div class="col-12 m-auto p-auto col-lg-6 offset-lg-1" id="video-top">
+				<div class="col-12 m-auto p-5 p-lg-0 col-lg-6 offset-lg-1" id="video-top">
 					<!-- order: 1; -->
 					<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/132663183?color=ff9933&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 				</div>
 			</div>
-			<div class="row" id="cards content">
+		</div>
+			<div class="row" id="cards-content">
 				<div class="col-12 col-lg-4 mx-auto">
-					<div class="card border-0 d-flex justify-content-center">
-						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
-						<div class="card-body d-flex flex-column align-items-center text-center">
-							<h5 class="card-title">Lorem, ipsum dolor.</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
-							<a href="" class="btn btn-primary w-50"></a>
+					<div class="card-group">
+						<div class="card border-0 d-flex justify-content-center align-items-center">
+							<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle w-75">
+							<div class="card-body w-75 d-flex flex-column align-items-center text-center">
+								<h5 class="card-title p-3">Lorem, ipsum dolor.</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
+								<a href="" class="btn p-3 w-50">Link Out</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-lg-4 mx-auto">
-					<div class="card border-0 d-flex justify-content-center">
-						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
-						<div class="card-body d-flex flex-column align-items-center text-center">
-							<h5 class="card-title">Lorem, ipsum dolor.</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
-							<a href="" class="btn btn-primary w-50"></a>
+					<div class="card-group">
+						<div class="card border-0 d-flex justify-content-center align-items-center">
+							<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle w-75">
+							<div class="card-body w-75 d-flex flex-column align-items-center text-center">
+								<h5 class="card-title p-3">Lorem, ipsum dolor.</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
+								<a href="" class="btn p-3 w-50">Link Out</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-lg-4 mx-auto">
-					<div class="card border-0 d-flex justify-content-center">
-						<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle">
-						<div class="card-body d-flex flex-column align-items-center text-center">
-							<h5 class="card-title">Lorem, ipsum dolor.</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
-							<a href="" class="btn btn-primary w-50"></a>
+					<div class="card-group">
+						<div class="card border-0 d-flex justify-content-center align-items-center">
+							<img src="//placehold.it/10x10" alt="" class="card-img-top rounded-circle w-75">
+							<div class="card-body w-75 d-flex flex-column align-items-center text-center">
+								<h5 class="card-title p-3">Lorem, ipsum dolor.</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi dolores dicta dolore necessitatibus reiciendis!</p>
+								<a href="" class="btn p-3 w-50">Link Out</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<hr class="col">
 			</div>
 			<div class="row d-flex justidy-content-between" id="bottom-content">
-				<div class="col col-lg-4 offset-lg-1" id="bottom-img"><img class="img-fluid" src="//placehold.it/700x500" alt=""></div>
-				<div class="col col-lg-4 offset-lg-2" id="bottom-text-block">
+				<div class="col-12 col-lg-4 offset-lg-1" id="bottom-img"><img class="img-fluid" src="//placehold.it/700x500" alt=""></div>
+				<div class="col-12 col-lg-4 offset-lg-2" id="bottom-text-block">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestias mollitia. Omnis praesentium officia repudiandae voluptatibus vitae, et numquam sint aut minus facilis eveniet tempora aspernatur, provident fuga quo totam quisquam asperiores iure, libero veniam. Adipisci, voluptatibus. Dolor non numquam voluptates in excepturi laudantium, fugit dolorum, alias perferendis officia dolores obcaecati? Voluptas, officia aperiam, recusandae rem facilis adipisci laboriosam sequi iste ab doloremque fugiat repellendus. Laboriosam magnam excepturi veritatis neque libero obcaecati expedita quae culpa facilis. Voluptas numquam nostrum odit.</p>
 				</div>
 			</div>			
-			<div class="row d-flex flex-column" id="bottom-splash">
-				<img src="" alt="">
-				<h5></h5>
+			<div class="row" id="bottom-splash">
+				<!-- GOTOANCHOR: URL:Fix Sizing for mobile and minimun bottom spacing -->
+				<div class="col-5 mx-auto mt-5 d-flex flex-column justify-content-around align-items-center">
+					<img class="img-fluid" src="logo.jpeg" alt="">
+					<h5>You'r in Mediocre Hands</h5>
+				</div>
 			</div>
-
 		</main>
 
 		<footer>
