@@ -6,7 +6,6 @@ header{
 /* 1. Gradient */
 	background-image: linear-gradient(to bottom left, #B0F 50%, #FFF 50%);
 /* 2. White Block */
-	background-color: white;
 /* 3. Yellow Block */
 
 /* 4. White Block */
@@ -75,22 +74,22 @@ header{
 	position: absolute;
 	top: 90%;	
 }
-
 /* Bottom Content */
 #bottom-text-block {
 	line-height: 2em;
 }
-@media (min-width: 992px){
+/* @media (min-width: 992px){
 	#bottom-text-block{
 		line-height: 3em;
 	}
-}
+} */
 
 /* Border-line */
 
 #border-line{
 	height: 6px;
 	background: linear-gradient(to bottom, #B0F, #507);
+	margin: 15vw 0;
 }
 
 /* Bottom Splash */
@@ -120,14 +119,6 @@ footer a:hover {
 	text-decoration-line: none;
 	color: #ddd;
 }
-/* footer .col-12{
-	justify-content: center;
-	align-items: center;
-}
-footer .col-lg-12{
-	justify-content: space-between;
-	align-items: center;
-} */
 #footer-element-1, #footer-element-2{
 	margin: 0 5vw 0 5vw;
 }
