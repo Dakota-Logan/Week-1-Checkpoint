@@ -1,23 +1,8 @@
-/*  Wrapper */
-
 header{
-/* Color Definitions */
-
-/* 1. Gradient */
 	background-image: linear-gradient(to bottom left, #B0F 50%, #FFF 50%);
-/* 2. White Block */
-/* 3. Yellow Block */
-
-/* 4. White Block */
-
-/* Background Positioning */
 }
 
 /* Header */
-
-.navbar{
-	/* background: rgba(0, 0, 0, 0); */
-}
 .navbar .img-fluid{
 	max-height: 10vw;
 	width: auto;
@@ -49,17 +34,17 @@ header{
 /* Cards */
 #cards-content{
 	background-color: orange;
-	height: 60vh;
+
+	/* height: 60vh; */
 }
 #cards-content .card-group{
 	top: 20%;
+	margin-bottom: -200px;
+	padding-top: 100px;
+	padding-bottom: 150px;
 }
 #cards-content .col-12 {
-	height: 60vh;
-	max-width: 70vw;
-}
-#cards-content .col-lg-4{
-	max-width: 20vw;
+	/* height: 60vh; */
 }
 .card-group .card{
 	background: hsla(0, 0%, 0%, 0);
@@ -74,6 +59,14 @@ header{
 	position: absolute;
 	top: 90%;	
 }
+
+/* Border-line */
+#border-line{
+	height: 6px;
+	background: linear-gradient(to bottom, #B0F, #507);
+	margin: 20vh 0;
+}
+
 /* Bottom Content */
 #bottom-text-block {
 	line-height: 2em;
@@ -84,13 +77,6 @@ header{
 	}
 } */
 
-/* Border-line */
-
-#border-line{
-	height: 6px;
-	background: linear-gradient(to bottom, #B0F, #507);
-	margin: 15vw 0;
-}
 
 /* Bottom Splash */
 #bottom-splash {
@@ -99,14 +85,15 @@ header{
 		#F0F,
 		#B0F
 	);
-	height: 25vh;
+	min-height: 25vh;
+	padding-top: 15px;
 }
 #bottom-splash .img-fluid{
 	max-width: 140px;
 	height: auto;
 }
 
-/* footer */
+/* Footer */
 footer div{
 	background-color: #000;
 }
