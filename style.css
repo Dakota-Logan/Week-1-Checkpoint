@@ -120,6 +120,14 @@ footer a:hover {
 	text-decoration-line: none;
 	color: #ddd;
 }
+/* footer .col-12{
+	justify-content: center;
+	align-items: center;
+}
+footer .col-lg-12{
+	justify-content: space-between;
+	align-items: center;
+} */
 #footer-element-1, #footer-element-2{
 	margin: 0 5vw 0 5vw;
 }
