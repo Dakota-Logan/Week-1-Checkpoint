@@ -1,7 +1,7 @@
 
 /*  Wrapper */
 
-.wrapper {
+header{
 /* Color Definitions */
 
 /* 1. Gradient */
@@ -20,21 +20,19 @@
 .navbar{
 	/* background: rgba(0, 0, 0, 0); */
 }
-
+.navbar .img-fluid{
+	max-height: 10vw;
+	width: auto;
+}
 .navbar .nav-link {
-	
 	width: 10vw;
 	height: 1.5rem;
-	background-color: #B0F;
+	background-color: #F0C;
 	margin: 0 2rem;
 	border-radius: unset;
 	border: none;
-	box-shadow: 3px 3px 2px #777;
+	box-shadow: 3px 3px 2px hsl(0, 0%, 20%);
 }
-
-/* Top Splash */
-
-
 
 #top-content {
 	min-height: 70vh;
@@ -52,24 +50,32 @@
 
 /* Cards */
 #cards-content{
-	background-color: yellow;
-}
-#cards-content>div {
+	background-color: orange;
 	height: 60vh;
 }
-/* .card-group .card{
-	position: relative;
+#cards-content .card-group{
+	/* top: 20%; */
 }
-.card-group .card .card-body {
+#cards-content .col-12 {
+	height: 60vh;
+	max-width: 70vw;
+}
+#cards-content .col-lg-4{
+	max-width: 20vw;
+}
+.card-group .card{
+	background: hsla(0, 0%, 0%, 0);
+}
+.card-group .card-body{
+	/* position: relative; */
+	margin-top: 1rem;
 	background-color: #B0F;
-	min-height: 50%;
-	bottom: -40%;
-	position: absolute;
 }
-.card-group .card .btn {
-	min-height: ;
-	background-color: #0FB;
-} */
+.card-group .btn{
+	background-color: #F0C;
+	/* position: absolute; */
+	top: 90%;
+}
 
 /* Bottom Content */
 #bottom-text-block {
@@ -80,6 +86,14 @@
 		line-height: 3em;
 	}
 }
+
+/* Border-line */
+
+#border-line{
+	height: 6px;
+	background: linear-gradient(to bottom, #B0F, #507);
+}
+
 /* Bottom Splash */
 #bottom-splash {
 	background: linear-gradient(
